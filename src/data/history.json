@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Cloud Computing Fundamentals",
+    "organisation": "IBM",
+    "experiences": [
+      "Principais conceitos de computação em nuvem",
+      "Modelos de serviço (IaaS, PaaS, SaaS)"
+    ]
+  },
+  {
+    "name": "Introduction to Express JS",
+    "organisation": "Simplilearn",
+    "experiences": ["Criação de APIs REST", "Gerenciamento de middlewares"]
+  },
+  {
+    "name": "Introduction to ASP.Net",
+    "organisation": "Simplilearn",
+    "experiences": [
+      "Desenvolvimento de aplicações web com .NET",
+      "Uso de MVC para organização de código"
+    ]
+  },
+  {
+    "name": "Responsive Web Design",
+    "organisation": "freeCodeCamp",
+    "experiences": ["Criação de layouts responsivos", "Uso de Flexbox e Grid"]
+  },
+  {
+    "name": "Creating your first web apps with React",
+    "organisation": "Microsoft",
+    "experiences": [
+      "Componentização com React",
+      "Gerenciamento de estado básico"
+    ]
+  },
+  {
+    "name": "Build JavaScript applications using TypeScript",
+    "organisation": "Microsoft",
+    "experiences": [
+      "Tipagem estática no JavaScript",
+      "Uso de interfaces e generics"
+    ]
+  },
+  {
+    "name": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
+    "organisation": "Cursa",
+    "experiences": ["Princípios de design UX", "Testes de usabilidade"]
+  },
+  {
+    "name": "Desenvolvendo Aplicações Mobile com Android Studio",
+    "organisation": "Fundação Bradesco",
+    "experiences": [
+      "Criação de apps nativos Android",
+      "Uso do Android Studio e XML para UI"
+    ]
+  },
+  {
+    "name": "Artificial Intelligence Fundamentals",
+    "organisation": "IBM",
+    "experiences": [
+      "Introdução ao Machine Learning",
+      "Uso de redes neurais em IA"
+    ]
+  },
+  {
+    "name": "Introduction to IoT",
+    "organisation": "Cisco",
+    "experiences": ["Arquitetura de IoT", "Protocolos de comunicação IoT"]
+  },
+  {
+    "name": "Introdução ao Customer Experience 2.0",
+    "organisation": "CS Academy",
+    "experiences": ["Fundamentos do Customer Experience", "Jornada do cliente"]
+  },
+  {
+    "name": "Introdução ao Customer Success",
+    "organisation": "CS Academy",
+    "experiences": ["Métricas de sucesso do cliente", "Estratégias de retenção"]
+  },
+  {
+    "name": "JF Java Fundamentals Learner",
+    "organisation": "Oracle",
+    "experiences": ["Fundamentos da programação Java", "Orientação a objetos"]
+  }
+]

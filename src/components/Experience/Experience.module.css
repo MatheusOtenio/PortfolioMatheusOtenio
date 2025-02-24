@@ -1,0 +1,240 @@
+@import "../../vars.css";
+
+.container {
+  min-height: 100vh; /* Alterado de height para min-height */
+  color: var(--color-text);
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box {
+  width: 100%;
+  min-height: auto; /* Permite crescer conforme necessário */
+  height: auto; /* Adapta a altura ao conteúdo */
+  background-color: var(--color-exp);
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+  flex-wrap: wrap; /* Permite que os itens se ajustem sem sobreposição */
+  gap: 20px;
+}
+
+.skills,
+.history {
+  min-width: 45%;
+  flex: 1;
+  max-width: 100%;
+  box-sizing: border-box; /* Para garantir que o padding não ultrapasse o limite */
+}
+
+/* Quando a tela for menor que 1200px, permite que empilhe */
+@media screen and (max-width: 1200px) {
+  .content {
+    flex-direction: column; /* Empilha as seções */
+    align-items: center; /* Centraliza */
+  }
+
+  .skills,
+  .history {
+    width: 100%; /* Ocupa a largura total quando empilhado */
+  }
+}
+
+/* Skills section */
+.skills {
+  width: 45%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  padding: 12px;
+  transition: transform 0.3s ease;
+}
+
+.skillImageContainer:hover {
+  transform: scale(1.1);
+}
+
+.skillImageContainer img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+.skill:hover p {
+  color: var(--color-bt);
+}
+
+/* História - Ajustes */
+.history {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-height: 410px; /* Ajuste para melhorar a usabilidade */
+  overflow-y: auto;
+  scrollbar-gutter: stable; /* Evita mudança brusca no layout */
+  padding-right: 10px;
+  overflow-x: hidden; /* Impede a rolagem no eixo X */
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.historyItem:hover {
+  transform: scale(1.03);
+  background: linear-gradient(90deg, #1e488e 0%, rgba(30, 72, 142, 0) 100%);
+}
+
+.historyItemDetails h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 17px;
+  color: var(--color-text);
+}
+
+/* Scroll do histórico */
+.history::-webkit-scrollbar {
+  width: 6px;
+}
+
+.history::-webkit-scrollbar-thumb {
+  background-color: var(--color-bt);
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Responsividade */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column; /* Empilha as seções */
+    align-items: center;
+    gap: 20px; /* Espaçamento entre as seções */
+  }
+
+  .skills,
+  .history {
+    width: 100%; /* Ocupa a largura total */
+  }
+
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .history {
+    gap: 9px;
+  }
+
+  .historyItem {
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .historyItemDetails h3 {
+    font-size: 18px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 14px;
+  }
+}
+
+/* Animação de Aparição */
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.skill {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-out;
+}
+
+.skill.visible {
+  opacity: 1;
+  transform: scale(1);
+}

@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+.container {
+  perspective: 1000px;
+  width: 345px;
+  height: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.container:hover .card {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 16px 14px 0 #04152d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+}
+
+.front {
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+}
+
+.image {
+  width: 100%;
+  height: 400px; /* Mantém a imagem dentro do card */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 4px 12px;
+  color: white;
+  list-style: none;
+}
+
+.back {
+  background: linear-gradient(180deg, #132a53 0%, #04152d 100%);
+  transform: rotateY(180deg);
+  padding: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-bt);
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 60px;
+  line-height: 1.6;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: var(--color-black);
+  padding: 6px 14px;
+  position: relative;
+  overflow: visible;
+  transition: color 0.3s ease-in-out;
+  z-index: 0;
+  left: 20px;
+  margin-right: 40px;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -3px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px); /* Reduz a dispersão */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.link:hover::before {
+  opacity: 1;
+  transform: scale(1); /* Reduz o tamanho da expansão */
+  animation: glowing 2s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

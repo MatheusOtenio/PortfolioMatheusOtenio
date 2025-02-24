@@ -1,0 +1,130 @@
+/* Importação de variáveis */
+@import "../../vars.css";
+
+/* Container Principal */
+.container {
+  width: 100vw; /* Ocupa toda a largura da tela */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  text-align: center; /* Garante alinhamento de texto */
+  gap: 10%; /* Espaçamento entre os elementos */
+}
+
+/* Conteúdo de Texto */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+/* Título */
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  color: var(--color-text); /* Garantindo que a cor do texto seja branca */
+}
+
+/* Descrição */
+.description {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+}
+
+/* Imagem Hero */
+.heroImg {
+  margin-left: 40px;
+  width: 25%; /* Define um tamanho menor */
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Blurs de fundo */
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(171, 209, 198, 0.1);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+}
+
+/* Botões (lado a lado) */
+.buttons {
+  display: flex;
+  gap: 30px; /* Espaçamento entre os botões */
+}
+
+/* Botão de Download CV */
+.downloadBtn {
+  text-decoration: none;
+  background-color: var(--color-bt); /* Usando a variável de cor para o botão */
+  color: var(--color-dark); /* Cor do texto do botão */
+  border-radius: 100px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 24px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Garantir que o cursor seja um ponteiro */
+}
+
+/* Botão de Contato */
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 24px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Garantir que o cursor seja um ponteiro */
+}
+
+/* Animação Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appear {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+/* Efeito de hover nos botões */
+.downloadBtn:hover,
+.contactBtn:hover {
+  transform: translateY(-5px) !important; /* Subir um pouco ao passar o mouse */
+}
