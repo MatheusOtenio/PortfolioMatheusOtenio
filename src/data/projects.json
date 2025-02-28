@@ -28,6 +28,15 @@
     "imageSrc": "projects/mipsProjeto.png",
     "description": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
     "skills": ["Python", "MIPS", "Assembly", "Tkinter"],
+    "demo": "https://pokemonyt-mathues-otenio.netlify.app/",
     "source": "https://github.com/MatheusOtenio/Simulador_Mips"
+  },
+  {
+    "title": "YouTube Audio Transcriber",
+    "imageSrc": "projects/transcriberProjeto.png",
+    "description": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
+    "skills": ["Python", "FastAPI", "React", "Vite", "Áudio Processing"],
+    "demo": "https://github.com/MatheusOtenio/TranscriptionApp",
+    "source": "https://github.com/MatheusOtenio/TranscriptionApp"
   }
 ]

@@ -1,11 +1,10 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
-  margin-bottom: 200px;
+  margin: 76px 10% 200px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  position: relative;
+  overflow: hidden;
 }
 
 .title {
@@ -13,15 +12,76 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.projects {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+.scrollContainer {
+  position: relative;
   width: 100%;
+  overflow-x: hidden;
+  padding: 20px 0;
+  display: flex;
+}
+
+.carousel {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: scroll-horizontal 100s linear infinite;
+}
+
+.carouselSecondary {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: scroll-horizontal 100s linear infinite;
+  transform: translateX(100%);
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scrollContainer:hover .carousel,
+.scrollContainer:hover .carouselSecondary {
+  animation-play-state: paused;
+}
+
+/* Esconde a scrollbar horizontal */
+body {
+  overflow-x: hidden;
+}
+
+/* Scrollbar horizontal personalizada */
+.scrollContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 76px 5% 100px;
+  }
+
+  .carousel,
+  .carouselSecondary {
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
 }
