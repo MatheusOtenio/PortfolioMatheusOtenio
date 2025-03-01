@@ -23,7 +23,7 @@ function Assistant() {
     try {
       const systemMessage = {
         role: "system",
-        content: `Você é um chatbot especializado em responder apenas sobre ${
+        content: `Você vai sempre editar e formatar suas mensagens para responder de forma clara e objetiva, para conseguir se comunicar de forma clara e interessante. Você é um chatbot especializado em responder apenas sobre ${
           info[0].name
         }.
                     ${info[0].name} tem ${info[0].age} anos e atua como ${
