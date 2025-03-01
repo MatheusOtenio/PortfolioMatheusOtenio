@@ -32,43 +32,66 @@ function Assistant() {
                         Ele está localizado em ${info.localizacao}.
                         
                         Ele possui experiência em desenvolvimento full stack e está estudando na ${
-                          info.graduacao.instituicao
+                          info.graduacao?.instituicao ||
+                          "Informação não disponível"
                         }.
-                        Suas habilidades incluem: Front-end (${info.habilidades.front_end.join(
-                          ", "
-                        )}),
-                        Back-end (${info.habilidades.back_end.join(", ")}),
-                        Bancos de dados (${info.habilidades.banco_de_dados.join(
-                          ", "
-                        )}),
-                        Cloud e DevOps (${info.habilidades.cloud_e_devops.join(
-                          ", "
-                        )}),
-                        além de conhecimentos em ${info.habilidades.outros.join(
-                          ", "
-                        )}.
+                        Suas habilidades incluem: Front-end (${
+                          info.habilidades?.front_end?.join(", ") ||
+                          "Nenhuma informação"
+                        }),
+                        Back-end (${
+                          info.habilidades?.back_end?.join(", ") ||
+                          "Nenhuma informação"
+                        }),
+                        Bancos de dados (${
+                          info.habilidades?.banco_de_dados?.join(", ") ||
+                          "Nenhuma informação"
+                        }),
+                        Cloud e DevOps (${
+                          info.habilidades?.cloud_e_devops?.join(", ") ||
+                          "Nenhuma informação"
+                        }),
+                        além de conhecimentos em ${
+                          info.habilidades?.outros?.join(", ") ||
+                          "Nenhuma informação"
+                        }.
       
                         Certificações relevantes:
-                        - Cloud e Infraestrutura: ${info.certificacoes.cloud_e_infraestrutura.join(
-                          ", "
-                        )}
-                        - Desenvolvimento Web e Mobile: ${info.certificacoes.desenvolvimento_web_mobile.join(
-                          ", "
-                        )}
-                        - Inteligência Artificial e IoT: ${info.certificacoes.inteligencia_artificial_iot.join(
-                          ", "
-                        )}
-                        - Customer Experience e Sucesso do Cliente: ${info.certificacoes.customer_experience_sucesso_cliente.join(
-                          ", "
-                        )}
-                        - Fundamentos de Programação: ${info.certificacoes.fundamentos_programacao.join(
-                          ", "
-                        )}
-                        - Outros: ${info.certificacoes.outros.join(", ")}
+                        - Cloud e Infraestrutura: ${
+                          info.certificacoes?.cloud_e_infraestrutura?.join(
+                            ", "
+                          ) || "Nenhuma informação"
+                        }
+                        - Desenvolvimento Web e Mobile: ${
+                          info.certificacoes?.desenvolvimento_web_mobile?.join(
+                            ", "
+                          ) || "Nenhuma informação"
+                        }
+                        - Inteligência Artificial e IoT: ${
+                          info.certificacoes?.inteligencia_artificial_iot?.join(
+                            ", "
+                          ) || "Nenhuma informação"
+                        }
+                        - Customer Experience e Sucesso do Cliente: ${
+                          info.certificacoes?.customer_experience_sucesso_cliente?.join(
+                            ", "
+                          ) || "Nenhuma informação"
+                        }
+                        - Fundamentos de Programação: ${
+                          info.certificacoes?.fundamentos_programacao?.join(
+                            ", "
+                          ) || "Nenhuma informação"
+                        }
+                        - Outros: ${
+                          info.certificacoes?.outros?.join(", ") ||
+                          "Nenhuma informação"
+                        }
       
                         Ele fala japonês (Nível ${
-                          info.idiomas.japones
-                        }) e inglês (Nível ${info.idiomas.ingles}).
+                          info.idiomas?.japones || "Nenhuma informação"
+                        }) e inglês (Nível ${
+          info.idiomas?.ingles || "Nenhuma informação"
+        }).
       
                         Responda apenas perguntas sobre ele e suas habilidades. Se a pergunta for sobre algo não relacionado ao Matheus, responda 'Pergunte mais sobre Matheus!'.`,
       };
@@ -136,3 +159,5 @@ function Assistant() {
     </div>
   );
 }
+
+export default Assistant;
