@@ -136,4 +136,3 @@ function Assistant() {
     </div>
   );
 }
-export default Assistant;
