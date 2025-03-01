@@ -10,6 +10,10 @@
   --color-exp: #4d5d53;
   --color-black: #000000;
   --color-white: #f0fff0;
+  --color-ia: #50c878;
+  --color-borda: #ccccff;
+  --color-fechar: #e31837;
+  --color-fecharr: #800020;
 
   /* Fonts */
   --font-roboto: "Roboto";

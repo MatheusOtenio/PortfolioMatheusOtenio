@@ -3,32 +3,29 @@
 .container {
   font-family: var(--font-roboto), sans-serif;
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   left: 20px;
   z-index: 1000;
 }
 
 .toggleButton {
-  background: none;
+  background: var(--color-ia);
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+  box-shadow: var(--color-borda) 0px 4px 6px;
   transition: transform 0.2s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Garante que a imagem não ultrapasse a borda arredondada */
 }
 
 .toggleButton img {
-  width: 70%; /* Ajuste proporcional ao botão */
+  width: 50%;
   height: auto;
-  max-width: 40px; /* Limita o tamanho máximo */
-  max-height: 40px;
-  object-fit: contain; /* Garante que a imagem não seja cortada */
+  object-fit: contain;
   border-radius: 50%;
 }
 
@@ -39,16 +36,19 @@
 /* Caixa do chat */
 .chatBox {
   position: fixed;
-  bottom: 80px;
-  left: 20px;
-  width: 350px;
-  max-width: 90vw; /* Responsivo para telas menores */
+  bottom: 110px;
+  left: 40px;
+  width: 400px;
+  max-width: 90vw;
   background: var(--color-white);
   border: 1px solid var(--color-secondary);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (max-width: 500px) {
@@ -59,10 +59,11 @@
   }
 }
 
-.chatContainer {
+.chatHeader {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .response {
@@ -74,21 +75,52 @@
   color: var(--color-text);
 }
 
-/* Input e botão */
-.input,
-.button {
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
   width: 100%;
   padding: 10px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
 }
 
-.button {
-  background-color: var(--color-primary);
-  color: var(--color-navtext);
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.closeButton {
+  background: var(--color-fechar);
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  font-size: 14px;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  flex: 1;
 }
 
-.button:hover {
-  background-color: darken(var(--color-primary), 10%);
+.sendButton {
+  flex: 2;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--color-navtext);
+}
+
+.sendButton:hover {
+  background-color: var(--color-exp);
+}
+
+.closeButton:hover {
+  background-color: var(--color-fecharr);
 }

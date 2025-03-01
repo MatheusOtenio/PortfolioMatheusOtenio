@@ -126,7 +126,6 @@ function Assistant() {
 
   return (
     <div className={styles.container}>
-      {/* Botão fixo no canto inferior esquerdo */}
       <button
         onClick={() => setShowChat(!showChat)}
         className={styles.toggleButton}
@@ -135,22 +134,30 @@ function Assistant() {
         <img src={getImageUrl("assistant/chatbot.png")} alt="Chatbot" />
       </button>
 
-      {/* Caixa do Chat */}
       {showChat && (
         <div className={styles.chatBox}>
-          <h2>Chatbot - Matheus Otenio</h2>
           <div className={styles.chatContainer}>
             <div className={styles.response}>{response}</div>
-            <input
-              type="text"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Digite sua pergunta..."
-              className={styles.input}
-            />
-            <button onClick={sendMessage} className={styles.button}>
-              Enviar
-            </button>
+            <div className={styles.inputContainer}>
+              <input
+                type="text"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder="Digite sua pergunta..."
+                className={styles.input}
+              />
+              <div className={styles.buttonContainer}>
+                <button
+                  onClick={() => setShowChat(false)}
+                  className={styles.closeButton}
+                >
+                  Fechar
+                </button>
+                <button onClick={sendMessage} className={styles.sendButton}>
+                  Enviar
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}
