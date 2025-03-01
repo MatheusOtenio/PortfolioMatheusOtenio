@@ -5,7 +5,7 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-import { Assistant } from "./components/Assistant/Assistant"; // Importando o chatbot
+import { Assistant } from "./components/Assistant/Assistant";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      <Assistant /> {/* Adicionando o chatbot no final */}
+      <Assistant />
     </div>
   );
 }
