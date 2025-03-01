@@ -38,5 +38,13 @@
     "skills": ["Python", "FastAPI", "React", "Vite", "Áudio Processing"],
     "demo": "https://github.com/MatheusOtenio/TranscriptionApp",
     "source": "https://github.com/MatheusOtenio/TranscriptionApp"
+  },
+  {
+    "title": "Assistente Virtual com Deepseek R1",
+    "imageSrc": "projects/AssistenteIA.png",
+    "description": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
+    "skills": ["IA", "API", "React", "Vite", "Deepseek"],
+    "demo": "https://test-chat-3zdc.vercel.app/",
+    "source": "https://github.com/MatheusOtenio/VirtualAssistant"
   }
 ]
