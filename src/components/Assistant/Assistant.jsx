@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Assistant.module.css";
 import { getImageUrl } from "../../utils";
-import dados from "../../data/data.json?import";
+import info from "../../data/info.json";
 
 const apiKey = import.meta.env.VITE_API_KEY; // Pegando a variável do Vercel
 
@@ -24,53 +24,53 @@ function Assistant() {
       const systemMessage = {
         role: "system",
         content: `Você é um chatbot especializado em responder apenas sobre ${
-          dados.nome
+          info.nome
         }.
-                  ${dados.nome} tem ${dados.idade} anos e atua como ${
-          dados.cargo
+                        ${info.nome} tem ${info.idade} anos e atua como ${
+          info.cargo
         }.
-                  Ele está localizado em ${dados.localizacao}.
-                  
-                  Ele possui experiência em desenvolvimento full stack e está estudando na ${
-                    dados.graduacao.instituicao
-                  }.
-                  Suas habilidades incluem: Front-end (${dados.habilidades.front_end.join(
-                    ", "
-                  )}),
-                  Back-end (${dados.habilidades.back_end.join(", ")}),
-                  Bancos de dados (${dados.habilidades.banco_de_dados.join(
-                    ", "
-                  )}),
-                  Cloud e DevOps (${dados.habilidades.cloud_e_devops.join(
-                    ", "
-                  )}),
-                  além de conhecimentos em ${dados.habilidades.outros.join(
-                    ", "
-                  )}.
-
-                  Certificações relevantes:
-                  - Cloud e Infraestrutura: ${dados.certificacoes.cloud_e_infraestrutura.join(
-                    ", "
-                  )}
-                  - Desenvolvimento Web e Mobile: ${dados.certificacoes.desenvolvimento_web_mobile.join(
-                    ", "
-                  )}
-                  - Inteligência Artificial e IoT: ${dados.certificacoes.inteligencia_artificial_iot.join(
-                    ", "
-                  )}
-                  - Customer Experience e Sucesso do Cliente: ${dados.certificacoes.customer_experience_sucesso_cliente.join(
-                    ", "
-                  )}
-                  - Fundamentos de Programação: ${dados.certificacoes.fundamentos_programacao.join(
-                    ", "
-                  )}
-                  - Outros: ${dados.certificacoes.outros.join(", ")}
-
-                  Ele fala japonês (Nível ${
-                    dados.idiomas.japones
-                  }) e inglês (Nível ${dados.idiomas.ingles}).
-
-                  Responda apenas perguntas sobre ele e suas habilidades. Se a pergunta for sobre algo não relacionado ao Matheus, responda 'Pergunte mais sobre Matheus!'.`,
+                        Ele está localizado em ${info.localizacao}.
+                        
+                        Ele possui experiência em desenvolvimento full stack e está estudando na ${
+                          info.graduacao.instituicao
+                        }.
+                        Suas habilidades incluem: Front-end (${info.habilidades.front_end.join(
+                          ", "
+                        )}),
+                        Back-end (${info.habilidades.back_end.join(", ")}),
+                        Bancos de dados (${info.habilidades.banco_de_dados.join(
+                          ", "
+                        )}),
+                        Cloud e DevOps (${info.habilidades.cloud_e_devops.join(
+                          ", "
+                        )}),
+                        além de conhecimentos em ${info.habilidades.outros.join(
+                          ", "
+                        )}.
+      
+                        Certificações relevantes:
+                        - Cloud e Infraestrutura: ${info.certificacoes.cloud_e_infraestrutura.join(
+                          ", "
+                        )}
+                        - Desenvolvimento Web e Mobile: ${info.certificacoes.desenvolvimento_web_mobile.join(
+                          ", "
+                        )}
+                        - Inteligência Artificial e IoT: ${info.certificacoes.inteligencia_artificial_iot.join(
+                          ", "
+                        )}
+                        - Customer Experience e Sucesso do Cliente: ${info.certificacoes.customer_experience_sucesso_cliente.join(
+                          ", "
+                        )}
+                        - Fundamentos de Programação: ${info.certificacoes.fundamentos_programacao.join(
+                          ", "
+                        )}
+                        - Outros: ${info.certificacoes.outros.join(", ")}
+      
+                        Ele fala japonês (Nível ${
+                          info.idiomas.japones
+                        }) e inglês (Nível ${info.idiomas.ingles}).
+      
+                        Responda apenas perguntas sobre ele e suas habilidades. Se a pergunta for sobre algo não relacionado ao Matheus, responda 'Pergunte mais sobre Matheus!'.`,
       };
 
       const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
