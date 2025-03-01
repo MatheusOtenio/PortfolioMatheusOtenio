@@ -136,3 +136,4 @@ function Assistant() {
     </div>
   );
 }
+export { Assistant };
