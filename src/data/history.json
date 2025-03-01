@@ -81,5 +81,21 @@
     "name": "JF Java Fundamentals Learner",
     "organisation": "Oracle",
     "experiences": ["Fundamentos da programação Java", "Orientação a objetos"]
+  },
+  {
+    "name": "Angular Basics",
+    "organisation": "Simplilearn",
+    "experiences": [
+      "APIs e configuração de roteamento",
+      "SPAs com Angular e formulários"
+    ]
+  },
+  {
+    "name": "MultiCloud, DevOps & IA",
+    "organisation": "The Cloud BootCamp",
+    "experiences": [
+      "infraestrutura com Terraform, AWS e Kubernetes",
+      "AWS Lambda, DynamoDB e integração MultiCloud"
+    ]
   }
 ]
