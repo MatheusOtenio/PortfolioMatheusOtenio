@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+  font-family: var(--font-roboto), sans-serif;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Garante que a imagem não ultrapasse a borda arredondada */
+}
+
+.toggleButton img {
+  width: 70%; /* Ajuste proporcional ao botão */
+  height: auto;
+  max-width: 40px; /* Limita o tamanho máximo */
+  max-height: 40px;
+  object-fit: contain; /* Garante que a imagem não seja cortada */
+  border-radius: 50%;
+}
+
+.toggleButton:hover {
+  transform: scale(1.1);
+}
+
+/* Caixa do chat */
+.chatBox {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  width: 350px;
+  max-width: 90vw; /* Responsivo para telas menores */
+  background: var(--color-white);
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .chatBox {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+  }
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.response {
+  border: 1px solid var(--color-secondary);
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Input e botão */
+.input,
+.button {
+  width: 100%;
+  padding: 10px;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-navtext);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: darken(var(--color-primary), 10%);
+}

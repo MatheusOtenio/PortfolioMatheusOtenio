@@ -1,0 +1,99 @@
+{
+  "nome": "Matheus Otenio",
+  "idade": 21,
+  "cargo": "Desenvolvedor Full Stack",
+  "localizacao": "Apucarana, Paraná, Brasil",
+  "contato": {
+    "telefone": "19982535723",
+    "email": "matheus.otenio843@gmail.com",
+    "linkedin": "linkedin.com/in/matheus-otenio",
+    "github": "github.com/MatheusOtenio"
+  },
+  "sobre": "Sou desenvolvedor full stack em formação pela UTFPR, com três anos de estudo em programação e participação em projetos de extensão. Busco uma oportunidade de estágio para aplicar e expandir meus conhecimentos em um ambiente profissional desafiador e multicultural. Tenho estudado a criação de interfaces responsivas com foco em UX/UI, desenvolvimento de RESTful APIs e soluções em cloud, visando alta performance e escalabilidade. Também tenho interesse em Inteligência Artificial, Data Science e IoT.",
+  "habilidades": {
+    "front_end": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Figma"
+    ],
+    "back_end": ["Node.js", "Express.js", "C#", "ASP.NET", ".NET Framework"],
+    "banco_de_dados": ["SQL", "PostgreSQL", "MySQL", "DynamoDB"],
+    "cloud_e_devops": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "AWS EKS",
+      "AWS Lambda",
+      "BigQuery",
+      "Azure Text Analytics"
+    ],
+    "outros": [
+      "Docker",
+      "RESTful APIs",
+      "Machine Learning (TensorFlow)",
+      "UX/UI",
+      "CS/CX",
+      "OpenAI Assistants",
+      "Amazon Bedrock"
+    ]
+  },
+  "graduacao": {
+    "curso": "Engenharia da Computação",
+    "instituicao": "UTFPR – Universidade Tecnológica Federal do Paraná",
+    "periodo": "Março 2023 a Dezembro 2027",
+    "disciplinas": [
+      "Python",
+      "Java",
+      "C",
+      "SQL",
+      "Banco de dados",
+      "Estruturas de dados",
+      "Programação orientada a objetos (POO)",
+      "Internet das Coisas",
+      "PostgreSQL",
+      "MySQL",
+      "Ferramentas UML",
+      "Microsoft Power BI",
+      "Arduino",
+      "Chatbots",
+      "Linux"
+    ]
+  },
+  "projetos_de_extensao": [
+    "Programação básica para escoteiros do Grupo Dom Bosco – UTFPR",
+    "Chatbot: aplicação para micro e pequenas empresas – UTFPR"
+  ],
+  "certificacoes": {
+    "cloud_e_infraestrutura": [
+      "Cloud Computing Fundamentals – IBM",
+      "Introduction to Express JS – Simplilearn",
+      "Introduction to ASP.Net – Simplilearn"
+    ],
+    "desenvolvimento_web_mobile": [
+      "Responsive Web Design – freeCodeCamp",
+      "Creating your first web apps with React – Microsoft",
+      "Build JavaScript applications using TypeScript – Microsoft",
+      "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário – Cursa",
+      "Desenvolvendo Aplicações Mobile com Android Studio – Fundação Bradesco"
+    ],
+    "inteligencia_artificial_iot": [
+      "Artificial Intelligence Fundamentals – IBM",
+      "Introduction to IoT – Cisco"
+    ],
+    "customer_experience_sucesso_cliente": [
+      "Introdução ao Customer Experience 2.0 – CS Academy",
+      "Introdução ao Customer Success – CS Academy"
+    ],
+    "fundamentos_programacao": ["JF Java Fundamentals Learner – Oracle"],
+    "outros": ["English for IT 1 (B2) – Cisco"]
+  },
+  "idiomas": {
+    "japones": "N1",
+    "ingles": "B2"
+  }
+}
