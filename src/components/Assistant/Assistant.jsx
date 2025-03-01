@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Assistant.module.css";
 import { getImageUrl } from "../../utils";
-import dados from "./data/data.json";
+import dados from "../../data/data.json"; // Caminho corrigido
 
 const apiKey = import.meta.env.VITE_API_KEY; // Pegando a variável do Vercel
 
@@ -21,8 +21,6 @@ function Assistant() {
     setResponse("Carregando, espere um momento...");
 
     try {
-      const dados = require("./dados.json");
-
       const systemMessage = {
         role: "system",
         content: `Você é um chatbot especializado em responder apenas sobre ${
