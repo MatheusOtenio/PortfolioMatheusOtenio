@@ -94,7 +94,7 @@ function Assistant() {
                     Responda apenas perguntas sobre ele e suas habilidades. Se a pergunta for sobre algo não relacionado ao Matheus, responda 'Pergunte mais sobre Matheus!'.`,
       };
 
-      const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      const res = await fetch("https://api.deepseek.com/chat/completions", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${apiKey}`,
