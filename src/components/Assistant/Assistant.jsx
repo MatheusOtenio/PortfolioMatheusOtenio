@@ -103,7 +103,7 @@ function Assistant() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "deepseek/deepseek-r1:free",
+          model: "deepseek/deepseek-r1",
           messages: [systemMessage, { role: "user", content: input }],
         }),
       });
