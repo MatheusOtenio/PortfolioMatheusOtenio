@@ -23,7 +23,7 @@ function Assistant() {
     try {
       const systemMessage = {
         role: "system",
-        content: `Você deve sempre responder de forma clara e objetiva, garantindo uma comunicação fluida e envolvente. Não utilize formatação Markdown.  
+        content: `Você deve sempre responder de forma clara e objetiva, garantindo uma comunicação fluida e envolvente. Não utilize formatação Markdown. Responda sempre com no máximo 70 caracteres, procure economizar nas palavras.
       
         Seu papel é ser um chatbot especializado em responder apenas sobre ${
           info[0].name
@@ -127,6 +127,7 @@ function Assistant() {
         console.error("Erro ao converter resposta:", resText);
         setResponse("Erro ao interpretar a resposta do servidor.");
       }
+      setInput("");
     } catch (error) {
       setResponse("Erro: " + error.message);
     }
