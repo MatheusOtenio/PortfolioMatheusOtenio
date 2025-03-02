@@ -60,8 +60,9 @@ export const About = () => {
                 <a>Backend</a>
               </h3>
               <p>
-                Tenho estudado desenvolvimento de sistemas e APIs eficientes,
-                focando na performance e escalabilidade.
+                Tenho estudado o desenvolvimento de sistemas e APIs eficientes,
+                além de frameworks, com foco em escalabilidade, visando práticas
+                de CI/CD e Cloud computing.
               </p>
             </div>
           </li>
