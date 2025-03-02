@@ -98,12 +98,10 @@ function Assistant() {
         method: "POST",
         headers: {
           Authorization: `Bearer ${apiKey}`,
-          "HTTP-Referer": "https://portfolio-matheus-otenio.vercel.app/",
-          "X-Title": "Meu Portfolio_Matheus Otenio",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "deepseek/deepseek-r1",
+          model: "deepseek-reasoner",
           messages: [systemMessage, { role: "user", content: input }],
         }),
       });
