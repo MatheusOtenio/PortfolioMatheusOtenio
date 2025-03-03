@@ -54,8 +54,31 @@ export const Experience = () => {
 
   useEffect(() => {
     startAutoScroll();
+
+    const handleTouchStart = () => {
+      isPaused.current = true;
+      cancelAnimationFrame(animationFrame.current);
+    };
+
+    const handleTouchEnd = () => {
+      setTimeout(() => {
+        isPaused.current = false;
+        startAutoScroll();
+      }, 3000); // Espera 3 segundos antes de retomar
+    };
+
+    const target = historyRef.current;
+    if (target) {
+      target.addEventListener("touchstart", handleTouchStart);
+      target.addEventListener("touchend", handleTouchEnd);
+    }
+
     return () => {
       if (animationFrame.current) cancelAnimationFrame(animationFrame.current);
+      if (target) {
+        target.removeEventListener("touchstart", handleTouchStart);
+        target.removeEventListener("touchend", handleTouchEnd);
+      }
     };
   }, []);
 
