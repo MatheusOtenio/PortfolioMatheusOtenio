@@ -34,7 +34,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 14px;
-  flex-wrap: wrap; /* Permite que os itens se ajustem sem sobreposição */
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -43,7 +43,7 @@
   min-width: 45%;
   flex: 1;
   max-width: 100%;
-  box-sizing: border-box; /* Para garantir que o padding não ultrapasse o limite */
+  box-sizing: border-box;
 }
 
 /* Quando a tela for menor que 1200px, permite que empilhe */
@@ -120,6 +120,8 @@
   scrollbar-gutter: stable; /* Evita mudança brusca no layout */
   padding-right: 10px;
   overflow-x: hidden; /* Impede a rolagem no eixo X */
+  -webkit-overflow-scrolling: touch;
+  touch-action: auto;
 }
 
 .historyItem {
