@@ -46,5 +46,19 @@
     "skills": ["IA", "API", "React", "Vite", "Deepseek"],
     "demo": "https://test-chat-3zdc.vercel.app/",
     "source": "https://github.com/MatheusOtenio/VirtualAssistant"
+  },
+  {
+    "title": "Google Meet Clone",
+    "imageSrc": "projects/googlemeet.png",
+    "description": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Clerk API",
+      "GetStream API"
+    ],
+    "demo": "https://google-meet-clone-ruby-pi.vercel.app/",
+    "source": "https://github.com/MatheusOtenio/GoogleMeet_Clone"
   }
 ]
