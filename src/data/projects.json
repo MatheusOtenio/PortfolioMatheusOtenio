@@ -60,5 +60,13 @@
     ],
     "demo": "https://google-meet-clone-ruby-pi.vercel.app/",
     "source": "https://github.com/MatheusOtenio/GoogleMeet_Clone"
+  },
+  {
+    "title": "ChatMO - Aplicação de Chat em Tempo Real",
+    "imageSrc": "projects/chatmo.png",
+    "description": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
+    "skills": ["Node.js", "Express", "Socket.IO", "JavaScript"],
+    "demo": "https://real-time-chat-bxpq.onrender.com/",
+    "source": "https://github.com/MatheusOtenio/Real-Time-Chat"
   }
 ]
