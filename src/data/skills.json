@@ -12,24 +12,20 @@
     "imageSrc": "skills/js.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "TypeScript",
+    "imageSrc": "skills/ts.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "React",
+    "imageSrc": "skills/react.png"
   },
   {
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "C#",
-    "imageSrc": "skills/csharp.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
   },
   {
     "title": "Python",
@@ -40,11 +36,15 @@
     "imageSrc": "skills/sql.png"
   },
   {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
     "title": "Docker",
     "imageSrc": "skills/docker.png"
   },
   {
-    "title": "GitHub",
-    "imageSrc": "skills/github.png"
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   }
 ]
