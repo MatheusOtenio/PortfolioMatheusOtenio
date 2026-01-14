@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import { useI18n } from "../../i18n.jsx";
 
 export const Contact = () => {
+  const { t } = useI18n();
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contatos</h2>
-        <p>Venha conversar comigo!</p>
+        <h2>{t("contact.title")}</h2>
+        <p>{t("contact.subtitle")}</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -16,10 +18,13 @@ export const Contact = () => {
             onClick={(e) => {
               e.preventDefault();
               navigator.clipboard.writeText("matheus.otenio843@gmail.com");
-              alert("E-mail copiado para a área de transferência!");
+              alert(t("contact.emailCopied"));
             }}
           >
-            <img src={getImageUrl("contact/emailIcon.png")} alt="Email" />
+            <img
+              src={getImageUrl("contact/emailIcon.png")}
+              alt={t("contact.emailAlt")}
+            />
           </a>
         </li>
 
@@ -29,7 +34,10 @@ export const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn" />
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt={t("contact.linkedinAlt")}
+            />
           </a>
         </li>
         <li className={styles.link}>
@@ -38,7 +46,10 @@ export const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={getImageUrl("contact/githubIcon.png")} alt="GitHub" />
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt={t("contact.githubAlt")}
+            />
           </a>
         </li>
         <li className={styles.link}>
@@ -47,10 +58,13 @@ export const Contact = () => {
             onClick={(e) => {
               e.preventDefault();
               navigator.clipboard.writeText("+55 19 98253-5723");
-              alert("Número copiado para a área de transferência!");
+              alert(t("contact.phoneCopied"));
             }}
           >
-            <img src={getImageUrl("contact/telefone.png")} alt="Telefone" />
+            <img
+              src={getImageUrl("contact/telefone.png")}
+              alt={t("contact.phoneAlt")}
+            />
           </a>
         </li>
       </ul>
