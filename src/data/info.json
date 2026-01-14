@@ -1,11 +1,11 @@
 [
   {
     "name": "Matheus Otenio",
-    "age": 21,
+    "age": 22,
     "role": "Desenvolvedor Full Stack",
     "location": "Apucarana, Paraná, Brasil",
     "contact": {
-      "phone": "19982535723",
+      "phone": "(19)98253-5723",
       "email": "matheus.otenio843@gmail.com",
       "linkedin": "linkedin.com/in/matheus-otenio",
       "github": "github.com/MatheusOtenio"
@@ -22,16 +22,10 @@
         "Tailwind CSS",
         "Figma"
       ],
-      "back_end": ["Node.js", "Express.js", "C#", "ASP.NET", ".NET Framework"],
+      "back_end": ["Node.js", "Express.js", "Python", "FastAPI"],
       "databases": ["SQL", "PostgreSQL", "MySQL", "DynamoDB"],
       "cloud_and_devops": [
-        "Terraform",
-        "AWS",
-        "Kubernetes",
-        "AWS EKS",
-        "AWS Lambda",
-        "BigQuery",
-        "Azure Text Analytics"
+        "AWS (EC2, IAM, Lambda)"
       ],
       "others": [
         "Docker",
@@ -72,26 +66,20 @@
     "certifications": {
       "cloud_and_infrastructure": [
         "Cloud Computing Fundamentals – IBM",
-        "Introduction to Express JS – Simplilearn",
-        "Introduction to ASP.Net – Simplilearn"
+        "Introduction to Express JS – Simplilearn"
       ],
       "web_and_mobile_development": [
         "Responsive Web Design – freeCodeCamp",
         "Creating your first web apps with React – Microsoft",
         "Build JavaScript applications using TypeScript – Microsoft",
-        "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário – Cursa",
-        "Desenvolvendo Aplicações Mobile com Android Studio – Fundação Bradesco"
+        "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário – Cursa"
       ],
       "ai_and_iot": [
         "Artificial Intelligence Fundamentals – IBM",
         "Introduction to IoT – Cisco"
       ],
-      "customer_experience_and_success": [
-        "Introdução ao Customer Experience 2.0 – CS Academy",
-        "Introdução ao Customer Success – CS Academy"
-      ],
       "programming_fundamentals": ["JF Java Fundamentals Learner – Oracle"],
-      "others": ["English for IT 1 (B2) – Cisco"]
+      "others": ["English for IT 2 (B2) – Cisco"]
     },
     "languages": {
       "japanese": "N1",
