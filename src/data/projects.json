@@ -24,41 +24,81 @@
     "source": "https://github.com/MatheusOtenio/McDonald-s"
   },
   {
-    "title": "Pokémon Game",
+    "title": {
+      "pt": "Pokémon Game",
+      "en": "Pokémon Game",
+      "jp": "Pokémon Game"
+    },
     "imageSrc": "projects/pokemonProjeto.png",
-    "description": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
+    "description": {
+      "pt": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
+      "en": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
+      "jp": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida."
+    },
     "skills": ["JavaScript", "HTML5 Canvas", "CSS3"],
     "demo": "https://pokemonyt-mathues-otenio.netlify.app/",
     "source": "https://github.com/MatheusOtenio/PokemonGameYT-WEB"
   },
   {
-    "title": "MIPS Simulator",
+    "title": {
+      "pt": "MIPS Simulator",
+      "en": "MIPS Simulator",
+      "jp": "MIPS Simulator"
+    },
     "imageSrc": "projects/mipsProjeto.png",
-    "description": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
+    "description": {
+      "pt": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
+      "en": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
+      "jp": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores."
+    },
     "skills": ["Python", "MIPS", "Assembly", "Tkinter"],
     "demo": "https://pokemonyt-mathues-otenio.netlify.app/",
     "source": "https://github.com/MatheusOtenio/Simulador_Mips"
   },
   {
-    "title": "YouTube Audio Transcriber",
+    "title": {
+      "pt": "YouTube Audio Transcriber",
+      "en": "YouTube Audio Transcriber",
+      "jp": "YouTube Audio Transcriber"
+    },
     "imageSrc": "projects/transcriberProjeto.png",
-    "description": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
+    "description": {
+      "pt": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
+      "en": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
+      "jp": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil."
+    },
     "skills": ["Python", "FastAPI", "React", "Vite", "Áudio Processing"],
     "demo": "https://github.com/MatheusOtenio/TranscriptionApp",
     "source": "https://github.com/MatheusOtenio/TranscriptionApp"
   },
   {
-    "title": "Assistente Virtual com Deepseek R1",
+    "title": {
+      "pt": "Assistente Virtual com Deepseek R1",
+      "en": "Assistente Virtual com Deepseek R1",
+      "jp": "Assistente Virtual com Deepseek R1"
+    },
     "imageSrc": "projects/AssistenteIA.png",
-    "description": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
+    "description": {
+      "pt": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
+      "en": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
+      "jp": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes."
+    },
     "skills": ["IA", "API", "React", "Vite", "Deepseek"],
     "demo": "https://test-chat-3zdc.vercel.app/",
     "source": "https://github.com/MatheusOtenio/VirtualAssistant"
   },
   {
-    "title": "Google Meet Clone",
+    "title": {
+      "pt": "Google Meet Clone",
+      "en": "Google Meet Clone",
+      "jp": "Google Meet Clone"
+    },
     "imageSrc": "projects/googlemeet.png",
-    "description": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
+    "description": {
+      "pt": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
+      "en": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
+      "jp": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas."
+    },
     "skills": [
       "Next.js",
       "TypeScript",
@@ -70,9 +110,17 @@
     "source": "https://github.com/MatheusOtenio/GoogleMeet_Clone"
   },
   {
-    "title": "ChatMO - Aplicação de Chat em Tempo Real",
+    "title": {
+      "pt": "ChatMO - Aplicação de Chat em Tempo Real",
+      "en": "ChatMO - Aplicação de Chat em Tempo Real",
+      "jp": "ChatMO - Aplicação de Chat em Tempo Real"
+    },
     "imageSrc": "projects/chatmo.png",
-    "description": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
+    "description": {
+      "pt": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
+      "en": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
+      "jp": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída."
+    },
     "skills": ["Node.js", "Express", "Socket.IO", "JavaScript"],
     "demo": "https://real-time-chat-bxpq.onrender.com/",
     "source": "https://github.com/MatheusOtenio/Real-Time-Chat"
