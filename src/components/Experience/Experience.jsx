@@ -6,7 +6,18 @@ import { getImageUrl } from "../../utils";
 import { useI18n } from "../../i18n";
 
 export const Experience = () => {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
+  const currentLang = language || "pt";
+
+  const getText = (field) => {
+    if (field && typeof field === "object") {
+      return field[currentLang] || field.pt || field.en || field.jp || "";
+    }
+    if (typeof field === "string") {
+      return field;
+    }
+    return "";
+  };
   const [visible, setVisible] = useState(false);
   const historyRef = useRef(null);
   const animationFrame = useRef(null);
@@ -122,18 +133,29 @@ export const Experience = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            {history.map((historyItem, id) => (
-              <li key={id} className={styles.historyItem}>
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.name} - ${historyItem.organisation}`}</h3>
-                  <ul>
-                    {historyItem.experiences.map((experience, idx) => (
-                      <li key={idx}>{experience}</li>
-                    ))}
-                  </ul>
-                </div>
-              </li>
-            ))}
+            {history.map((historyItem, id) => {
+              const nameText = getText(historyItem.name);
+              const organisationText = getText(historyItem.organisation);
+              const experiencesArray =
+                Array.isArray(historyItem.experiences) &&
+                historyItem.experiences.length > 0
+                  ? historyItem.experiences
+                  : [];
+
+              return (
+                <li key={id} className={styles.historyItem}>
+                  <div className={styles.historyItemDetails}>
+                    <h3>{`${nameText} - ${organisationText}`}</h3>
+                    <ul>
+                      {experiencesArray.map((experience, idx) => {
+                        const experienceText = getText(experience);
+                        return <li key={idx}>{experienceText}</li>;
+                      })}
+                    </ul>
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
