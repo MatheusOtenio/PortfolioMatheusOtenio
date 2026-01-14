@@ -27,7 +27,7 @@
     "name": {
       "pt": "Introduction to Express JS",
       "en": "Introduction to Express JS",
-      "jp": "Introduction to Express JS"
+      "jp": "Express JS入門"
     },
     "organisation": {
       "pt": "Simplilearn",
@@ -37,13 +37,13 @@
     "experiences": [
       {
         "pt": "Criação de APIs REST",
-        "en": "Criação de APIs REST",
-        "jp": "Criação de APIs REST"
+        "en": "Creation of REST APIs",
+        "jp": "REST APIの作成"
       },
       {
         "pt": "Gerenciamento de middlewares",
-        "en": "Gerenciamento de middlewares",
-        "jp": "Gerenciamento de middlewares"
+        "en": "Middleware management",
+        "jp": "ミドルウェアの管理"
       }
     ]
   },
@@ -51,7 +51,7 @@
     "name": {
       "pt": "Introduction to ASP.Net",
       "en": "Introduction to ASP.Net",
-      "jp": "Introduction to ASP.Net"
+      "jp": "ASP.Net入門"
     },
     "organisation": {
       "pt": "Simplilearn",
@@ -61,13 +61,13 @@
     "experiences": [
       {
         "pt": "Desenvolvimento de aplicações web com .NET",
-        "en": "Desenvolvimento de aplicações web com .NET",
-        "jp": "Desenvolvimento de aplicações web com .NET"
+        "en": "Development of web applications with .NET",
+        "jp": ".NETを使用したWebアプリケーション開発"
       },
       {
         "pt": "Uso de MVC para organização de código",
-        "en": "Uso de MVC para organização de código",
-        "jp": "Uso de MVC para organização de código"
+        "en": "Using MVC for code organization",
+        "jp": "コード整理のためのMVCの活用"
       }
     ]
   },
@@ -75,7 +75,7 @@
     "name": {
       "pt": "Responsive Web Design",
       "en": "Responsive Web Design",
-      "jp": "Responsive Web Design"
+      "jp": "レスポンシブWebデザイン"
     },
     "organisation": {
       "pt": "freeCodeCamp",
@@ -85,13 +85,13 @@
     "experiences": [
       {
         "pt": "Criação de layouts responsivos",
-        "en": "Criação de layouts responsivos",
-        "jp": "Criação de layouts responsivos"
+        "en": "Creation of responsive layouts",
+        "jp": "レスポンシブレイアウトの作成"
       },
       {
         "pt": "Uso de Flexbox e Grid",
-        "en": "Uso de Flexbox e Grid",
-        "jp": "Uso de Flexbox e Grid"
+        "en": "Use of Flexbox and Grid",
+        "jp": "FlexboxとGridの活用"
       }
     ]
   },
@@ -99,7 +99,7 @@
     "name": {
       "pt": "Creating your first web apps with React",
       "en": "Creating your first web apps with React",
-      "jp": "Creating your first web apps with React"
+      "jp": "Reactで始めるWebアプリ開発"
     },
     "organisation": {
       "pt": "Microsoft",
@@ -109,13 +109,13 @@
     "experiences": [
       {
         "pt": "Componentização com React",
-        "en": "Componentização com React",
-        "jp": "Componentização com React"
+        "en": "Componentization with React",
+        "jp": "Reactでのコンポーネント化"
       },
       {
         "pt": "Gerenciamento de estado básico",
-        "en": "Gerenciamento de estado básico",
-        "jp": "Gerenciamento de estado básico"
+        "en": "Basic state management",
+        "jp": "基本的な状態管理"
       }
     ]
   },
@@ -123,7 +123,7 @@
     "name": {
       "pt": "Build JavaScript applications using TypeScript",
       "en": "Build JavaScript applications using TypeScript",
-      "jp": "Build JavaScript applications using TypeScript"
+      "jp": "TypeScriptで学ぶJavaScriptアプリケーション開発"
     },
     "organisation": {
       "pt": "Microsoft",
@@ -133,21 +133,21 @@
     "experiences": [
       {
         "pt": "Tipagem estática no JavaScript",
-        "en": "Tipagem estática no JavaScript",
-        "jp": "Tipagem estática no JavaScript"
+        "en": "Static typing in JavaScript",
+        "jp": "JavaScriptにおける静的型付け"
       },
       {
         "pt": "Uso de interfaces e generics",
-        "en": "Uso de interfaces e generics",
-        "jp": "Uso de interfaces e generics"
+        "en": "Use of interfaces and generics",
+        "jp": "インターフェースとジェネリクスの活用"
       }
     ]
   },
   {
     "name": {
       "pt": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
-      "en": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
-      "jp": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário"
+      "en": "Basic and Advanced Knowledge of UX/UI User Experience",
+      "jp": "UX/UIユーザーエクスペリエンスの基礎と応用知識"
     },
     "organisation": {
       "pt": "Cursa",
@@ -157,21 +157,21 @@
     "experiences": [
       {
         "pt": "Princípios de design UX",
-        "en": "Princípios de design UX",
-        "jp": "Princípios de design UX"
+        "en": "UX design principles",
+        "jp": "UXデザインの原則"
       },
       {
         "pt": "Testes de usabilidade",
-        "en": "Testes de usabilidade",
-        "jp": "Testes de usabilidade"
+        "en": "Usability testing",
+        "jp": "ユーザビリティテスト"
       }
     ]
   },
   {
     "name": {
       "pt": "Desenvolvendo Aplicações Mobile com Android Studio",
-      "en": "Desenvolvendo Aplicações Mobile com Android Studio",
-      "jp": "Desenvolvendo Aplicações Mobile com Android Studio"
+      "en": "Developing Mobile Applications with Android Studio",
+      "jp": "Android Studioを使用したモバイルアプリ開発"
     },
     "organisation": {
       "pt": "Fundação Bradesco",
@@ -181,13 +181,13 @@
     "experiences": [
       {
         "pt": "Criação de apps nativos Android",
-        "en": "Criação de apps nativos Android",
-        "jp": "Criação de apps nativos Android"
+        "en": "Creation of native Android apps",
+        "jp": "ネイティブAndroidアプリの開発"
       },
       {
         "pt": "Uso do Android Studio e XML para UI",
-        "en": "Uso do Android Studio e XML para UI",
-        "jp": "Uso do Android Studio e XML para UI"
+        "en": "Using Android Studio and XML for UI",
+        "jp": "Android StudioとXMLを用いたUI構築"
       }
     ]
   },
@@ -195,7 +195,7 @@
     "name": {
       "pt": "Artificial Intelligence Fundamentals",
       "en": "Artificial Intelligence Fundamentals",
-      "jp": "Artificial Intelligence Fundamentals"
+      "jp": "人工知能の基礎"
     },
     "organisation": {
       "pt": "IBM",
@@ -205,13 +205,13 @@
     "experiences": [
       {
         "pt": "Introdução ao Machine Learning",
-        "en": "Introdução ao Machine Learning",
-        "jp": "Introdução ao Machine Learning"
+        "en": "Introduction to Machine Learning",
+        "jp": "機械学習の入門"
       },
       {
         "pt": "Uso de redes neurais em IA",
-        "en": "Uso de redes neurais em IA",
-        "jp": "Uso de redes neurais em IA"
+        "en": "Use of neural networks in AI",
+        "jp": "AIにおけるニューラルネットワークの活用"
       }
     ]
   },
@@ -219,7 +219,7 @@
     "name": {
       "pt": "Introduction to IoT",
       "en": "Introduction to IoT",
-      "jp": "Introduction to IoT"
+      "jp": "IoT入門"
     },
     "organisation": {
       "pt": "Cisco",
@@ -229,21 +229,21 @@
     "experiences": [
       {
         "pt": "Arquitetura de IoT",
-        "en": "Arquitetura de IoT",
-        "jp": "Arquitetura de IoT"
+        "en": "IoT architecture",
+        "jp": "IoTアーキテクチャ"
       },
       {
         "pt": "Protocolos de comunicação IoT",
-        "en": "Protocolos de comunicação IoT",
-        "jp": "Protocolos de comunicação IoT"
+        "en": "IoT communication protocols",
+        "jp": "IoT通信プロトコル"
       }
     ]
   },
   {
     "name": {
       "pt": "Introdução ao Customer Experience 2.0",
-      "en": "Introdução ao Customer Experience 2.0",
-      "jp": "Introdução ao Customer Experience 2.0"
+      "en": "Introduction to Customer Experience 2.0",
+      "jp": "カスタマーエクスペリエンス2.0入門"
     },
     "organisation": {
       "pt": "CS Academy",
@@ -253,21 +253,21 @@
     "experiences": [
       {
         "pt": "Fundamentos do Customer Experience",
-        "en": "Fundamentos do Customer Experience",
-        "jp": "Fundamentos do Customer Experience"
+        "en": "Fundamentals of Customer Experience",
+        "jp": "カスタマーエクスペリエンスの基礎"
       },
       {
         "pt": "Jornada do cliente",
-        "en": "Jornada do cliente",
-        "jp": "Jornada do cliente"
+        "en": "Customer journey",
+        "jp": "カスタマージャーニー"
       }
     ]
   },
   {
     "name": {
       "pt": "Introdução ao Customer Success",
-      "en": "Introdução ao Customer Success",
-      "jp": "Introdução ao Customer Success"
+      "en": "Introduction to Customer Success",
+      "jp": "カスタマーサクセス入門"
     },
     "organisation": {
       "pt": "CS Academy",
@@ -277,13 +277,13 @@
     "experiences": [
       {
         "pt": "Métricas de sucesso do cliente",
-        "en": "Métricas de sucesso do cliente",
-        "jp": "Métricas de sucesso do cliente"
+        "en": "Customer success metrics",
+        "jp": "カスタマーサクセス指標"
       },
       {
         "pt": "Estratégias de retenção",
-        "en": "Estratégias de retenção",
-        "jp": "Estratégias de retenção"
+        "en": "Retention strategies",
+        "jp": "顧客維持戦略"
       }
     ]
   },
@@ -301,13 +301,13 @@
     "experiences": [
       {
         "pt": "Fundamentos da programação Java",
-        "en": "Fundamentos da programação Java",
-        "jp": "Fundamentos da programação Java"
+        "en": "Fundamentals of Java programming",
+        "jp": "Javaプログラミングの基礎"
       },
       {
         "pt": "Orientação a objetos",
-        "en": "Orientação a objetos",
-        "jp": "Orientação a objetos"
+        "en": "Object-oriented programming",
+        "jp": "オブジェクト指向プログラミング"
       }
     ]
   },
@@ -325,13 +325,13 @@
     "experiences": [
       {
         "pt": "APIs e configuração de roteamento",
-        "en": "APIs e configuração de roteamento",
-        "jp": "APIs e configuração de roteamento"
+        "en": "APIs and routing configuration",
+        "jp": "APIとルーティング設定"
       },
       {
         "pt": "SPAs com Angular e formulários",
-        "en": "SPAs com Angular e formulários",
-        "jp": "SPAs com Angular e formulários"
+        "en": "SPAs with Angular and forms",
+        "jp": "AngularによるSPAとフォーム構築"
       }
     ]
   },
@@ -349,13 +349,13 @@
     "experiences": [
       {
         "pt": "infraestrutura com Terraform, AWS e Kubernetes",
-        "en": "infraestrutura com Terraform, AWS e Kubernetes",
-        "jp": "infraestrutura com Terraform, AWS e Kubernetes"
+        "en": "Infrastructure with Terraform, AWS and Kubernetes",
+        "jp": "Terraform、AWS、Kubernetesを用いたインフラ構築"
       },
       {
         "pt": "AWS Lambda, DynamoDB e integração MultiCloud",
-        "en": "AWS Lambda, DynamoDB e integração MultiCloud",
-        "jp": "AWS Lambda, DynamoDB e integração MultiCloud"
+        "en": "AWS Lambda, DynamoDB and MultiCloud integration",
+        "jp": "AWS Lambda、DynamoDBとマルチクラウド統合"
       }
     ]
   }

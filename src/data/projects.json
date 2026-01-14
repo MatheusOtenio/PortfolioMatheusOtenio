@@ -31,9 +31,9 @@
     },
     "imageSrc": "projects/pokemonProjeto.png",
     "description": {
-      "pt": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
-      "en": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
-      "jp": "   O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida."
+      "pt": "O Pokémon Game é um jogo interativo desenvolvido com JavaScript e HTML5 Canvas, permitindo que os jogadores explorem um mundo aberto e participem de batalhas dinâmicas. O sistema de batalha é inspirado nos clássicos Pokémon, com ataques dinâmicos e som imersivo. O mapa, criado com o software Tiled, inclui colisões para garantir a navegação adequada e uma experiência divertida.",
+      "en": "Pokémon Game is an interactive game built with JavaScript and HTML5 Canvas, allowing players to explore an open world and take part in dynamic battles. The battle system is inspired by classic Pokémon games, with dynamic attacks and immersive sound. The map, created with the Tiled software, includes collision handling to ensure proper navigation and a fun experience.",
+      "jp": "Pokémon Game は JavaScript と HTML5 Canvas で開発されたインタラクティブなゲームで、プレイヤーはオープンワールドを探索し、ダイナミックなバトルを楽しむことができます。バトルシステムはクラシックなポケモンゲームに着想を得ており、ダイナミックな攻撃と没入感のあるサウンドが特徴です。マップは Tiled というソフトウェアで作成され、衝突判定を備えることで快適な移動と楽しい体験を実現しています。"
     },
     "skills": ["JavaScript", "HTML5 Canvas", "CSS3"],
     "demo": "https://pokemonyt-mathues-otenio.netlify.app/",
@@ -47,9 +47,9 @@
     },
     "imageSrc": "projects/mipsProjeto.png",
     "description": {
-      "pt": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
-      "en": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
-      "jp": "   O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores."
+      "pt": "O MIPS Simulator simula o funcionamento de um processador MIPS. Desenvolvido em Python com Tkinter, permite visualizar registradores, memória e executar instruções passo a passo. O simulador traduz o código binário para Assembly, facilitando o entendimento do processador. Foi criado como parte da disciplina de Arquitetura e Organização de Computadores.",
+      "en": "MIPS Simulator simulates how a MIPS processor works. Built in Python with Tkinter, it allows you to visualize registers and memory and execute instructions step by step. The simulator translates binary code into Assembly, making it easier to understand the processor. It was created as part of the Computer Architecture and Organization course.",
+      "jp": "MIPS Simulator は MIPS プロセッサの動作をシミュレートするツールです。Python と Tkinter で実装されており、レジスタやメモリの状態を可視化し、命令をステップ実行することができます。バイナリコードをアセンブリに変換することで、プロセッサの仕組みを理解しやすくします。コンピュータアーキテクチャとオーガニゼーションの授業の一環として開発されました。"
     },
     "skills": ["Python", "MIPS", "Assembly", "Tkinter"],
     "demo": "https://pokemonyt-mathues-otenio.netlify.app/",
@@ -64,8 +64,8 @@
     "imageSrc": "projects/transcriberProjeto.png",
     "description": {
       "pt": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
-      "en": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil.",
-      "jp": "Este projeto transcreve áudio de vídeos do YouTube a partir de um link, com um backend em Python e FastAPI para extrair e transcrever o áudio, e um frontend em React e Vite para a interface de inserção e visualização do texto. O Python é usado para processamento de áudio, enquanto o FastAPI facilita a comunicação entre frontend e backend. O React cria uma interface dinâmica, e o Vite acelera o desenvolvimento. Aplicações incluem transcrição de aulas para estudo, acessibilidade para deficientes auditivos e análise de conteúdo para resumos, sendo uma ferramenta prática e versátil."
+      "en": "This project transcribes audio from YouTube videos given a link, using a Python and FastAPI backend to extract and transcribe the audio and a React + Vite frontend for entering the link and viewing the text. Python is used for audio processing, while FastAPI handles communication between frontend and backend. React provides a dynamic interface and Vite speeds up development. Use cases include transcribing classes for study, improving accessibility for hearing‑impaired users and analyzing content to generate summaries, making it a practical and versatile tool.",
+      "jp": "このプロジェクトは、リンクを指定するだけで YouTube 動画の音声を文字起こしするツールです。バックエンドでは Python と FastAPI を使って音声の抽出と文字起こしを行い、フロントエンドでは React と Vite を使ってリンク入力とテキスト表示のインターフェースを提供します。Python は音声処理に利用され、FastAPI がフロントエンドとバックエンド間の通信を担います。React により動的な UI を実現し、Vite により開発を高速化しています。授業動画の文字起こしによる学習支援、聴覚障がい者向けのアクセシビリティ向上、要約作成のためのコンテンツ分析など、実用的かつ汎用性の高いツールです。"
     },
     "skills": ["Python", "FastAPI", "React", "Vite", "Áudio Processing"],
     "demo": "https://github.com/MatheusOtenio/TranscriptionApp",
@@ -74,14 +74,14 @@
   {
     "title": {
       "pt": "Assistente Virtual com Deepseek R1",
-      "en": "Assistente Virtual com Deepseek R1",
-      "jp": "Assistente Virtual com Deepseek R1"
+      "en": "Virtual Assistant with DeepSeek R1",
+      "jp": "DeepSeek R1 を利用したバーチャルアシスタント"
     },
     "imageSrc": "projects/AssistenteIA.png",
     "description": {
       "pt": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
-      "en": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes.",
-      "jp": "Este projeto utiliza React + Vite para criar um assistente virtual baseado na API Deepseek R1, permitindo que visitantes obtenham informações sobre o meu perfil de forma interativa e dinâmica. O sistema interage dinamicamente com visitantes, oferecendo respostas personalizadas com base no meu perfil e utilizando a API Deepseek R1 para gerar respostas inteligentes."
+      "en": "This project uses React and Vite to build a virtual assistant based on the DeepSeek R1 API, allowing visitors to obtain information about my profile in an interactive and dynamic way. The system interacts with visitors in real time, providing personalized answers based on my profile and using the DeepSeek R1 API to generate intelligent responses.",
+      "jp": "このプロジェクトでは、DeepSeek R1 API を利用したバーチャルアシスタントを React と Vite で実装しています。訪問者はインタラクティブかつ動的な形で私のプロフィールに関する情報を得ることができます。システムは訪問者とリアルタイムに対話し、プロフィール情報に基づいたパーソナライズされた回答を返し、DeepSeek R1 API を使って知的な応答を生成します。"
     },
     "skills": ["IA", "API", "React", "Vite", "Deepseek"],
     "demo": "https://test-chat-3zdc.vercel.app/",
@@ -96,8 +96,8 @@
     "imageSrc": "projects/googlemeet.png",
     "description": {
       "pt": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
-      "en": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas.",
-      "jp": "Projeto de videoconferência desenvolvido com Next.js 14, TypeScript e Tailwind CSS, permitindo chamadas em tempo real com autenticação segura. As APIs Clerk e GetStream gerenciam login, autenticação, transmissão ao vivo e gravação de chamadas."
+      "en": "Video-conferencing project built with Next.js 14, TypeScript and Tailwind CSS, enabling real-time calls with secure authentication. Clerk and GetStream APIs handle login, authentication, live streaming and call recording.",
+      "jp": "Next.js 14、TypeScript、Tailwind CSS を用いて開発したビデオ会議アプリケーションで、安全な認証付きのリアルタイム通話が可能です。Clerk と GetStream の各 API がログインや認証、ライブ配信、通話録画などの機能を担当します。"
     },
     "skills": [
       "Next.js",
@@ -112,14 +112,14 @@
   {
     "title": {
       "pt": "ChatMO - Aplicação de Chat em Tempo Real",
-      "en": "ChatMO - Aplicação de Chat em Tempo Real",
-      "jp": "ChatMO - Aplicação de Chat em Tempo Real"
+      "en": "ChatMO - Real-Time Chat Application",
+      "jp": "ChatMO - リアルタイムチャットアプリケーション"
     },
     "imageSrc": "projects/chatmo.png",
     "description": {
       "pt": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
-      "en": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída.",
-      "jp": "Aplicação de chat em tempo real desenvolvida com Node.js, Express e Socket.IO. Permite troca de mensagens instantâneas em salas temáticas e exibe usuários online, com notificações de entrada e saída."
+      "en": "Real-time chat application built with Node.js, Express and Socket.IO. It allows instant message exchange in themed rooms and displays online users, with join and leave notifications.",
+      "jp": "Node.js、Express、Socket.IO で実装されたリアルタイムチャットアプリケーションです。テーマごとのルームでメッセージを即時にやり取りでき、オンライン中のユーザーを表示し、入室・退室の通知も行います。"
     },
     "skills": ["Node.js", "Express", "Socket.IO", "JavaScript"],
     "demo": "https://real-time-chat-bxpq.onrender.com/",
