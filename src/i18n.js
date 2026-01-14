@@ -1,4 +1,9 @@
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 const SUPPORTED_LANGUAGES = ["pt", "en", "jp"];
 
@@ -299,9 +304,7 @@ export function I18nProvider({ children }) {
     t: (key) => t(language, key),
   };
 
-  return (
-    <I18nContext.Provider value={value}>{children}</I18nContext.Provider>
-  );
+  return React.createElement(I18nContext.Provider, { value }, children);
 }
 
 export function useI18n() {
