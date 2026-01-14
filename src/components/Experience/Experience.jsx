@@ -3,8 +3,10 @@ import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+import { useI18n } from "../../i18n";
 
 export const Experience = () => {
+  const { t } = useI18n();
   const [visible, setVisible] = useState(false);
   const historyRef = useRef(null);
   const animationFrame = useRef(null);
@@ -95,9 +97,7 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <div className={styles.box}>
-        {" "}
-        {/* Quadrado com fundo --color-exp */}
-        <h2 className={styles.title}>Experiência</h2>
+        <h2 className={styles.title}>{t("experience.title")}</h2>
         <div className={styles.content}>
           <div className={styles.skills}>
             {skills.map((skill, id) => (

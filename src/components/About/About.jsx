@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import { useI18n } from "../../i18n";
 
 export const About = () => {
+  const { t } = useI18n();
   useEffect(() => {
     const aboutItems = document.querySelectorAll(`.${styles.aboutItem}`);
 
@@ -30,7 +32,7 @@ export const About = () => {
 
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>Sobre</h2>
+      <h2 className={styles.title}>{t("about.title")}</h2>
       <div className={styles.content}>
         <ul className={styles.aboutItems}>
           <li className={`${styles.aboutItem} ${styles.hidden}`}>
@@ -41,11 +43,10 @@ export const About = () => {
             />
             <div className={styles.aboutItemText}>
               <h3>
-                <a>Frontend</a>
+                <a>{t("about.frontend.title")}</a>
               </h3>
               <p>
-                Experiência na criação de sites responsivos para diversas
-                plataformas, buscando sempre melhorar a experiência do usuário.
+                {t("about.frontend.description")}
               </p>
             </div>
           </li>
@@ -57,12 +58,10 @@ export const About = () => {
             />
             <div className={styles.aboutItemText}>
               <h3>
-                <a>Backend</a>
+                <a>{t("about.backend.title")}</a>
               </h3>
               <p>
-                Tenho estudado o desenvolvimento de sistemas e APIs eficientes,
-                além de frameworks, com foco em escalabilidade, visando práticas
-                de CI/CD e Cloud computing.
+                {t("about.backend.description")}
               </p>
             </div>
           </li>
@@ -74,12 +73,10 @@ export const About = () => {
             />
             <div className={styles.aboutItemText}>
               <h3>
-                <a>Outros</a>
+                <a>{t("about.other.title")}</a>
               </h3>
               <p>
-                Forte interesse em Inteligência Artificial, IoT e Análise de
-                Dados. Sou também fluente em japonês e tenho bom domínio do
-                inglês.
+                {t("about.other.description")}
               </p>
             </div>
           </li>

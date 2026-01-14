@@ -2,14 +2,16 @@ import React from "react";
 import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
+import { useI18n } from "../../i18n";
 
 export const Projects = () => {
+  const { t } = useI18n();
   // Duplica os projetos para criar o efeito infinito
   const duplicatedProjects = [...projects, ...projects, ...projects];
 
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>Projects</h2>
+      <h2 className={styles.title}>{t("projects.title")}</h2>
       <div className={styles.scrollContainer}>
         <div className={styles.carousel}>
           {duplicatedProjects.map((project, id) => (
