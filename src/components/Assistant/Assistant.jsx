@@ -11,9 +11,7 @@ function Assistant() {
   const currentLang = language || "pt";
 
   const [input, setInput] = useState("");
-  const [response, setResponse] = useState(() =>
-    t("assistant.welcome")
-  );
+  const [response, setResponse] = useState("");
   const [showChat, setShowChat] = useState(false);
 
   async function sendMessage() {
@@ -291,7 +289,9 @@ Caso a pergunta não seja sobre ${info[0].name}, responda: "${fallback}".`;
       {showChat && (
         <div className={styles.chatBox}>
           <div className={styles.chatContainer}>
-            <div className={styles.response}>{response}</div>
+            <div className={styles.response}>
+              {response || t("assistant.welcome")}
+            </div>
             <div className={styles.inputContainer}>
               <input
                 type="text"
