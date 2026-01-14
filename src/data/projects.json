@@ -1,8 +1,16 @@
 [
   {
-    "title": "Sistema de Autoatendimento",
+    "title": {
+      "pt": "Sistema de Autoatendimento",
+      "en": "Self-Service Ordering System",
+      "jp": "セルフサービス注文システム"
+    },
     "imageSrc": "projects/mcProjeto.png",
-    "description": "   Este sistema moderniza o processo de pedidos em restaurantes, inspirado nos totens de autoatendimento de redes como McDonald's e Burger King. Ele permite que os clientes façam pedidos de forma independente e eficiente, tanto em versões web quanto mobile. O sistema inclui verificação de CPF para autenticação, vinculação ao histórico do cliente e armazenamento de pedidos no banco de dados para consultas futuras",
+    "description": {
+      "pt": "Este sistema moderniza o processo de pedidos em restaurantes, inspirado em totens de autoatendimento como os do McDonald's e Burger King, com versões web e mobile e autenticação por CPF.",
+      "en": "This system modernizes restaurant ordering, inspired by self-service kiosks like those at McDonald's and Burger King, with web and mobile versions and CPF-based authentication.",
+      "jp": "このシステムは、マクドナルドやバーガーキングのセルフサービス端末を参考に、Web とモバイル版、CPF 認証を備えたレストランの注文プロセスを近代化します。"
+    },
     "skills": [
       "Next.js",
       "TypeScript",

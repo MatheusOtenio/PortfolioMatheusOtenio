@@ -1,10 +1,26 @@
 [
   {
-    "name": "Cloud Computing Fundamentals",
-    "organisation": "IBM",
+    "name": {
+      "pt": "Cloud Computing Fundamentals",
+      "en": "Cloud Computing Fundamentals",
+      "jp": "クラウドコンピューティング基礎"
+    },
+    "organisation": {
+      "pt": "IBM",
+      "en": "IBM",
+      "jp": "IBM"
+    },
     "experiences": [
-      "Principais conceitos de computação em nuvem",
-      "Modelos de serviço (IaaS, PaaS, SaaS)"
+      {
+        "pt": "Principais conceitos de computação em nuvem",
+        "en": "Main concepts of cloud computing",
+        "jp": "クラウドコンピューティングの主要な概念"
+      },
+      {
+        "pt": "Modelos de serviço (IaaS, PaaS, SaaS)",
+        "en": "Service models (IaaS, PaaS, SaaS)",
+        "jp": "サービスモデル（IaaS、PaaS、SaaS）"
+      }
     ]
   },
   {
