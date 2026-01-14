@@ -24,94 +24,339 @@
     ]
   },
   {
-    "name": "Introduction to Express JS",
-    "organisation": "Simplilearn",
-    "experiences": ["Criação de APIs REST", "Gerenciamento de middlewares"]
-  },
-  {
-    "name": "Introduction to ASP.Net",
-    "organisation": "Simplilearn",
+    "name": {
+      "pt": "Introduction to Express JS",
+      "en": "Introduction to Express JS",
+      "jp": "Introduction to Express JS"
+    },
+    "organisation": {
+      "pt": "Simplilearn",
+      "en": "Simplilearn",
+      "jp": "Simplilearn"
+    },
     "experiences": [
-      "Desenvolvimento de aplicações web com .NET",
-      "Uso de MVC para organização de código"
+      {
+        "pt": "Criação de APIs REST",
+        "en": "Criação de APIs REST",
+        "jp": "Criação de APIs REST"
+      },
+      {
+        "pt": "Gerenciamento de middlewares",
+        "en": "Gerenciamento de middlewares",
+        "jp": "Gerenciamento de middlewares"
+      }
     ]
   },
   {
-    "name": "Responsive Web Design",
-    "organisation": "freeCodeCamp",
-    "experiences": ["Criação de layouts responsivos", "Uso de Flexbox e Grid"]
-  },
-  {
-    "name": "Creating your first web apps with React",
-    "organisation": "Microsoft",
+    "name": {
+      "pt": "Introduction to ASP.Net",
+      "en": "Introduction to ASP.Net",
+      "jp": "Introduction to ASP.Net"
+    },
+    "organisation": {
+      "pt": "Simplilearn",
+      "en": "Simplilearn",
+      "jp": "Simplilearn"
+    },
     "experiences": [
-      "Componentização com React",
-      "Gerenciamento de estado básico"
+      {
+        "pt": "Desenvolvimento de aplicações web com .NET",
+        "en": "Desenvolvimento de aplicações web com .NET",
+        "jp": "Desenvolvimento de aplicações web com .NET"
+      },
+      {
+        "pt": "Uso de MVC para organização de código",
+        "en": "Uso de MVC para organização de código",
+        "jp": "Uso de MVC para organização de código"
+      }
     ]
   },
   {
-    "name": "Build JavaScript applications using TypeScript",
-    "organisation": "Microsoft",
+    "name": {
+      "pt": "Responsive Web Design",
+      "en": "Responsive Web Design",
+      "jp": "Responsive Web Design"
+    },
+    "organisation": {
+      "pt": "freeCodeCamp",
+      "en": "freeCodeCamp",
+      "jp": "freeCodeCamp"
+    },
     "experiences": [
-      "Tipagem estática no JavaScript",
-      "Uso de interfaces e generics"
+      {
+        "pt": "Criação de layouts responsivos",
+        "en": "Criação de layouts responsivos",
+        "jp": "Criação de layouts responsivos"
+      },
+      {
+        "pt": "Uso de Flexbox e Grid",
+        "en": "Uso de Flexbox e Grid",
+        "jp": "Uso de Flexbox e Grid"
+      }
     ]
   },
   {
-    "name": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
-    "organisation": "Cursa",
-    "experiences": ["Princípios de design UX", "Testes de usabilidade"]
-  },
-  {
-    "name": "Desenvolvendo Aplicações Mobile com Android Studio",
-    "organisation": "Fundação Bradesco",
+    "name": {
+      "pt": "Creating your first web apps with React",
+      "en": "Creating your first web apps with React",
+      "jp": "Creating your first web apps with React"
+    },
+    "organisation": {
+      "pt": "Microsoft",
+      "en": "Microsoft",
+      "jp": "Microsoft"
+    },
     "experiences": [
-      "Criação de apps nativos Android",
-      "Uso do Android Studio e XML para UI"
+      {
+        "pt": "Componentização com React",
+        "en": "Componentização com React",
+        "jp": "Componentização com React"
+      },
+      {
+        "pt": "Gerenciamento de estado básico",
+        "en": "Gerenciamento de estado básico",
+        "jp": "Gerenciamento de estado básico"
+      }
     ]
   },
   {
-    "name": "Artificial Intelligence Fundamentals",
-    "organisation": "IBM",
+    "name": {
+      "pt": "Build JavaScript applications using TypeScript",
+      "en": "Build JavaScript applications using TypeScript",
+      "jp": "Build JavaScript applications using TypeScript"
+    },
+    "organisation": {
+      "pt": "Microsoft",
+      "en": "Microsoft",
+      "jp": "Microsoft"
+    },
     "experiences": [
-      "Introdução ao Machine Learning",
-      "Uso de redes neurais em IA"
+      {
+        "pt": "Tipagem estática no JavaScript",
+        "en": "Tipagem estática no JavaScript",
+        "jp": "Tipagem estática no JavaScript"
+      },
+      {
+        "pt": "Uso de interfaces e generics",
+        "en": "Uso de interfaces e generics",
+        "jp": "Uso de interfaces e generics"
+      }
     ]
   },
   {
-    "name": "Introduction to IoT",
-    "organisation": "Cisco",
-    "experiences": ["Arquitetura de IoT", "Protocolos de comunicação IoT"]
-  },
-  {
-    "name": "Introdução ao Customer Experience 2.0",
-    "organisation": "CS Academy",
-    "experiences": ["Fundamentos do Customer Experience", "Jornada do cliente"]
-  },
-  {
-    "name": "Introdução ao Customer Success",
-    "organisation": "CS Academy",
-    "experiences": ["Métricas de sucesso do cliente", "Estratégias de retenção"]
-  },
-  {
-    "name": "JF Java Fundamentals Learner",
-    "organisation": "Oracle",
-    "experiences": ["Fundamentos da programação Java", "Orientação a objetos"]
-  },
-  {
-    "name": "Angular Basics",
-    "organisation": "Simplilearn",
+    "name": {
+      "pt": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
+      "en": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário",
+      "jp": "Conhecimentos Básicos e Avançados de UX/UI Experiência do Usuário"
+    },
+    "organisation": {
+      "pt": "Cursa",
+      "en": "Cursa",
+      "jp": "Cursa"
+    },
     "experiences": [
-      "APIs e configuração de roteamento",
-      "SPAs com Angular e formulários"
+      {
+        "pt": "Princípios de design UX",
+        "en": "Princípios de design UX",
+        "jp": "Princípios de design UX"
+      },
+      {
+        "pt": "Testes de usabilidade",
+        "en": "Testes de usabilidade",
+        "jp": "Testes de usabilidade"
+      }
     ]
   },
   {
-    "name": "MultiCloud, DevOps & IA",
-    "organisation": "The Cloud BootCamp",
+    "name": {
+      "pt": "Desenvolvendo Aplicações Mobile com Android Studio",
+      "en": "Desenvolvendo Aplicações Mobile com Android Studio",
+      "jp": "Desenvolvendo Aplicações Mobile com Android Studio"
+    },
+    "organisation": {
+      "pt": "Fundação Bradesco",
+      "en": "Fundação Bradesco",
+      "jp": "Fundação Bradesco"
+    },
     "experiences": [
-      "infraestrutura com Terraform, AWS e Kubernetes",
-      "AWS Lambda, DynamoDB e integração MultiCloud"
+      {
+        "pt": "Criação de apps nativos Android",
+        "en": "Criação de apps nativos Android",
+        "jp": "Criação de apps nativos Android"
+      },
+      {
+        "pt": "Uso do Android Studio e XML para UI",
+        "en": "Uso do Android Studio e XML para UI",
+        "jp": "Uso do Android Studio e XML para UI"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "Artificial Intelligence Fundamentals",
+      "en": "Artificial Intelligence Fundamentals",
+      "jp": "Artificial Intelligence Fundamentals"
+    },
+    "organisation": {
+      "pt": "IBM",
+      "en": "IBM",
+      "jp": "IBM"
+    },
+    "experiences": [
+      {
+        "pt": "Introdução ao Machine Learning",
+        "en": "Introdução ao Machine Learning",
+        "jp": "Introdução ao Machine Learning"
+      },
+      {
+        "pt": "Uso de redes neurais em IA",
+        "en": "Uso de redes neurais em IA",
+        "jp": "Uso de redes neurais em IA"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "Introduction to IoT",
+      "en": "Introduction to IoT",
+      "jp": "Introduction to IoT"
+    },
+    "organisation": {
+      "pt": "Cisco",
+      "en": "Cisco",
+      "jp": "Cisco"
+    },
+    "experiences": [
+      {
+        "pt": "Arquitetura de IoT",
+        "en": "Arquitetura de IoT",
+        "jp": "Arquitetura de IoT"
+      },
+      {
+        "pt": "Protocolos de comunicação IoT",
+        "en": "Protocolos de comunicação IoT",
+        "jp": "Protocolos de comunicação IoT"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "Introdução ao Customer Experience 2.0",
+      "en": "Introdução ao Customer Experience 2.0",
+      "jp": "Introdução ao Customer Experience 2.0"
+    },
+    "organisation": {
+      "pt": "CS Academy",
+      "en": "CS Academy",
+      "jp": "CS Academy"
+    },
+    "experiences": [
+      {
+        "pt": "Fundamentos do Customer Experience",
+        "en": "Fundamentos do Customer Experience",
+        "jp": "Fundamentos do Customer Experience"
+      },
+      {
+        "pt": "Jornada do cliente",
+        "en": "Jornada do cliente",
+        "jp": "Jornada do cliente"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "Introdução ao Customer Success",
+      "en": "Introdução ao Customer Success",
+      "jp": "Introdução ao Customer Success"
+    },
+    "organisation": {
+      "pt": "CS Academy",
+      "en": "CS Academy",
+      "jp": "CS Academy"
+    },
+    "experiences": [
+      {
+        "pt": "Métricas de sucesso do cliente",
+        "en": "Métricas de sucesso do cliente",
+        "jp": "Métricas de sucesso do cliente"
+      },
+      {
+        "pt": "Estratégias de retenção",
+        "en": "Estratégias de retenção",
+        "jp": "Estratégias de retenção"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "JF Java Fundamentals Learner",
+      "en": "JF Java Fundamentals Learner",
+      "jp": "JF Java Fundamentals Learner"
+    },
+    "organisation": {
+      "pt": "Oracle",
+      "en": "Oracle",
+      "jp": "Oracle"
+    },
+    "experiences": [
+      {
+        "pt": "Fundamentos da programação Java",
+        "en": "Fundamentos da programação Java",
+        "jp": "Fundamentos da programação Java"
+      },
+      {
+        "pt": "Orientação a objetos",
+        "en": "Orientação a objetos",
+        "jp": "Orientação a objetos"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "Angular Basics",
+      "en": "Angular Basics",
+      "jp": "Angular Basics"
+    },
+    "organisation": {
+      "pt": "Simplilearn",
+      "en": "Simplilearn",
+      "jp": "Simplilearn"
+    },
+    "experiences": [
+      {
+        "pt": "APIs e configuração de roteamento",
+        "en": "APIs e configuração de roteamento",
+        "jp": "APIs e configuração de roteamento"
+      },
+      {
+        "pt": "SPAs com Angular e formulários",
+        "en": "SPAs com Angular e formulários",
+        "jp": "SPAs com Angular e formulários"
+      }
+    ]
+  },
+  {
+    "name": {
+      "pt": "MultiCloud, DevOps & IA",
+      "en": "MultiCloud, DevOps & IA",
+      "jp": "MultiCloud, DevOps & IA"
+    },
+    "organisation": {
+      "pt": "The Cloud BootCamp",
+      "en": "The Cloud BootCamp",
+      "jp": "The Cloud BootCamp"
+    },
+    "experiences": [
+      {
+        "pt": "infraestrutura com Terraform, AWS e Kubernetes",
+        "en": "infraestrutura com Terraform, AWS e Kubernetes",
+        "jp": "infraestrutura com Terraform, AWS e Kubernetes"
+      },
+      {
+        "pt": "AWS Lambda, DynamoDB e integração MultiCloud",
+        "en": "AWS Lambda, DynamoDB e integração MultiCloud",
+        "jp": "AWS Lambda, DynamoDB e integração MultiCloud"
+      }
     ]
   }
 ]
