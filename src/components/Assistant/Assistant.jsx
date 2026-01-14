@@ -2,23 +2,27 @@ import { useState } from "react";
 import styles from "./Assistant.module.css";
 import { getImageUrl } from "../../utils";
 import info from "../../data/info.json";
+import { useI18n } from "../../i18n";
 
 const apiKey = import.meta.env.VITE_API_KEY; // Pegando a variável do Vercel
 
 function Assistant() {
+  const { t, language } = useI18n();
+  const currentLang = language || "pt";
+
   const [input, setInput] = useState("");
-  const [response, setResponse] = useState(
-    "Bem-vindo! Sou uma IA treinada para responder perguntas sobre Matheus Otenio."
+  const [response, setResponse] = useState(() =>
+    t("assistant.welcome")
   );
   const [showChat, setShowChat] = useState(false);
 
   async function sendMessage() {
     if (!input.trim()) {
-      setResponse("Por favor, insira sua pergunta.");
+      setResponse(t("assistant.emptyInput"));
       return;
     }
 
-    setResponse("Carregando, espere um momento...");
+    setResponse(t("assistant.loading"));
 
     try {
       const systemMessage = {
@@ -121,15 +125,15 @@ function Assistant() {
         const data = JSON.parse(resText);
         setResponse(
           data.choices?.[0]?.message?.content ||
-            "Servidor congestionado. Envie novamente."
+            t("assistant.server.busy")
         );
       } catch (error) {
         console.error("Erro ao converter resposta:", resText);
-        setResponse("Erro ao interpretar a resposta do servidor.");
+        setResponse(t("assistant.error.generic"));
       }
       setInput("");
     } catch (error) {
-      setResponse("Erro: " + error.message);
+      setResponse(t("assistant.errorPrefix") + error.message);
     }
   }
 
@@ -138,7 +142,7 @@ function Assistant() {
       <button
         onClick={() => setShowChat(!showChat)}
         className={styles.toggleButton}
-        aria-label="Abrir chat"
+        aria-label={t("assistant.aria.openChat")}
       >
         <img src={getImageUrl("assistant/chatbot.png")} alt="Chatbot" />
       </button>
@@ -152,7 +156,7 @@ function Assistant() {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Digite sua pergunta..."
+                placeholder={t("assistant.placeholder")}
                 className={styles.input}
               />
               <div className={styles.buttonContainer}>
@@ -160,10 +164,10 @@ function Assistant() {
                   onClick={() => setShowChat(false)}
                   className={styles.closeButton}
                 >
-                  Fechar
+                  {t("assistant.button.close")}
                 </button>
                 <button onClick={sendMessage} className={styles.sendButton}>
-                  Enviar
+                  {t("assistant.button.send")}
                 </button>
               </div>
             </div>
