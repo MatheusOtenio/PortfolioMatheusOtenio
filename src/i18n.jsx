@@ -70,6 +70,15 @@ export const translations = {
     "assistant.sendButton": "Enviar",
     "assistant.openChatAriaLabel": "Abrir chat",
     "assistant.systemPrompt": "Chatbot especializado em responder sobre Matheus Otenio.",
+    "assistant.error.generic": "Erro ao interpretar a resposta do servidor.",
+    "assistant.server.busy": "Servidor congestionado. Envie novamente.",
+    "assistant.placeholder": "Digite sua pergunta...",
+    "assistant.button.close": "Fechar",
+    "assistant.button.send": "Enviar",
+    "assistant.aria.openChat": "Abrir chat",
+    "assistant.system.fallback": "Pergunte mais sobre Matheus!",
+    "assistant.system.instructions":
+      "Responda de forma clara e objetiva, sem Markdown, com até 500 caracteres, falando apenas sobre Matheus Otenio, suas habilidades, experiências e formas de contato.",
 
     "projectCard.imageAlt": "Imagem do projeto",
     "projectCard.demo": "Demo",
@@ -145,6 +154,15 @@ export const translations = {
     "assistant.openChatAriaLabel": "Open chat",
     "assistant.systemPrompt":
       "Chatbot specialized in answering questions about Matheus Otenio.",
+    "assistant.error.generic": "Error parsing server response.",
+    "assistant.server.busy": "Server busy. Please send again.",
+    "assistant.placeholder": "Type your question...",
+    "assistant.button.close": "Close",
+    "assistant.button.send": "Send",
+    "assistant.aria.openChat": "Open chat",
+    "assistant.system.fallback": "Ask more about Matheus!",
+    "assistant.system.instructions":
+      "Answer clearly and concisely, without Markdown, in at most 500 characters, only about Matheus Otenio, his skills, experience and contact information.",
 
     "projectCard.imageAlt": "Image of project",
     "projectCard.demo": "Demo",
@@ -220,6 +238,15 @@ export const translations = {
     "assistant.openChatAriaLabel": "チャットを開く",
     "assistant.systemPrompt":
       "マテウス・オテニオに関する質問に回答するチャットボットです。",
+    "assistant.error.generic": "サーバーの応答を解析できませんでした。",
+    "assistant.server.busy": "サーバーが混雑しています。再度お試しください。",
+    "assistant.placeholder": "質問を入力してください...",
+    "assistant.button.close": "閉じる",
+    "assistant.button.send": "送信",
+    "assistant.aria.openChat": "チャットを開く",
+    "assistant.system.fallback": "マテウスについてもっと質問してください！",
+    "assistant.system.instructions":
+      "あなたはマテウス・オテニオに関する質問のみに、Markdown を使わず、最大 500 文字で、分かりやすく簡潔に回答してください。",
 
     "projectCard.imageAlt": "プロジェクトの画像",
     "projectCard.demo": "デモ",
