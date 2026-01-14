@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
-import { useI18n } from "../../i18n.jsx";
+import { useI18n } from "../../i18n";
 
 export const Contact = () => {
   const { t } = useI18n();

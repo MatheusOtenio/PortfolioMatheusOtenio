@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./FormContact.module.css";
 import emailjs from "emailjs-com";
-import { useI18n } from "../../i18n.jsx";
+import { useI18n } from "../../i18n";
 
 export const Contact = ({ onClose }) => {
   const { t } = useI18n();
