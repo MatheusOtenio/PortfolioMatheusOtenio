@@ -41,6 +41,7 @@ export const Navbar = () => {
           </li>
         </ul>
         <select
+          className={styles.langSelect}
           value={language}
           onChange={(event) => setLanguage(event.target.value)}
         >

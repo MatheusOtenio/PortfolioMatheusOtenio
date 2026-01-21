@@ -46,6 +46,44 @@
   color: var(--color-bt); /* Troca a cor do texto quando passar o mouse */
 }
 
+/* Estilo do Seletor de Idioma */
+.langSelect {
+  appearance: none; /* Remove a seta e estilo padrão do navegador */
+  -webkit-appearance: none; /* Safari/Chrome */
+  -moz-appearance: none; /* Firefox */
+
+  background-color: transparent;
+  border: 1px solid var(--color-navtext); /* Borda sutil na cor do texto */
+  border-radius: 5px;
+
+  color: var(--color-navtext);
+  font-size: 20px; /* Tamanho próximo aos links (que são 25px) */
+  font-weight: 500;
+  font-family: var(--font-roboto); /* Garante a mesma fonte */
+
+  padding: 5px 15px;
+  cursor: pointer;
+
+  /* Posicionamento */
+  margin-left: 47px; /* Mesmo gap usado entre os itens do menu */
+  transition: all 0.3s ease;
+  outline: none;
+  text-align: center;
+}
+
+/* Efeito Hover (igual aos links) */
+.langSelect:hover {
+  color: var(--color-bt);
+  border-color: var(--color-bt);
+}
+
+/* Estilização das opções internas (o dropdown que abre) */
+.langSelect option {
+  background-color: var(--color-primary); /* Fundo escuro para ler o texto branco */
+  color: var(--color-navtext);
+  padding: 10px;
+}
+
 /* Ajuste do espaçamento do conteúdo para evitar sobreposição */
 body {
   padding-top: 57px; /* Exatamente a altura do navbar */
@@ -56,28 +94,25 @@ body {
   .navbar {
     padding: 0 5%;
     height: 60px;
+    justify-content: flex-end;
   }
 
   .menu {
-    position: absolute;
-    right: 5%;
-    top: 60px;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
   }
 
   .menuBtn {
     display: block;
-    position: absolute;
-    right: 1%;
-    top: 20%;
-    z-index: 9999;
-    transform: translateY(-120%); /* Levanta um pouco mais o botão */
   }
 
   .menuItems {
+    position: absolute;
+    top: 60px;
+    right: 0;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -86,8 +121,7 @@ body {
     background: linear-gradient(
       0deg,
       rgba(169, 169, 169, 0.2) 10%,
-      /* Cor cinza mais clara e com transparência */ rgba(169, 169, 169, 0.8)
-        50% /* Cor cinza mais opaca */
+      rgba(169, 169, 169, 0.8) 50%
     );
     padding: 24px 33px;
   }
@@ -95,6 +129,15 @@ body {
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .langSelect {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: auto;
+    text-align-last: center;
   }
 }
 
